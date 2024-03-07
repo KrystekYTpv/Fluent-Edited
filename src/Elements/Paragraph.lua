@@ -18,4 +18,23 @@ function Paragraph:New(Config)
 	return Paragraph
 end
 
+function Paragraph:Update(newConfig)
+    assert(newConfig, "Paragraph.Update - Missing newConfig")
+
+    if newConfig.Title then
+        self.Title = newConfig.Title
+        self.Frame.Title.Text = newConfig.Title
+    end
+
+    if newConfig.Content then
+        self.Content = newConfig.Content
+        self.Frame.Content.Text = newConfig.Content
+    end
+
+    if newConfig.BackgroundTransparency then
+        self.Frame.BackgroundTransparency = newConfig.BackgroundTransparency
+    end
+end
+
+
 return Paragraph
