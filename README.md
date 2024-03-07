@@ -13,7 +13,7 @@
 You can load Fluent through a GitHub Release:
 
 ```lua
-local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
+local Fluent = loadstring(game:HttpGet("https://github.com/KrystekYTpv/Fluent-Edited/releases/download/1.1.0/main.lua"))()
 ```
 <br/>
 
@@ -28,3 +28,4 @@ local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/
 - [violin-suzutsuki/LinoriaLib](https://github.com/violin-suzutsuki/LinoriaLib) - Code for most of the elements, save manager
 - [7kayoh/Acrylic](https://github.com/7kayoh/Acrylic) - Porting richie0866's acrylic module to lua
 - [Latte Softworks & Kotera](https://discord.gg/rMMByr4qas) - Bundler
+- KrystekYT - Edited and added few lines for updating ui
